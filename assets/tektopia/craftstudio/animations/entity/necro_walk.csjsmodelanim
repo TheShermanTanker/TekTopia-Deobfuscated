@@ -1,0 +1,117 @@
+{
+  "title": "necro_walk",
+  "duration": 120,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+    "BodyInner": {
+      "position": {
+        "0": [ 0, 3, 0 ],
+        "20": [ 0, 3.4, 0 ],
+        "40": [ 0, 5, 0 ],
+        "60": [ 0, 5.5, 0 ],
+        "80": [ 0, 5, 0 ],
+        "100": [ 0, 3.4, 0 ],
+        "120": [ 0, 3, 0 ]
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 11, 0, 0 ],
+        "50": [ 11, 0, 0 ],
+        "120": [ 11, 0, 0 ]
+      },
+      "stretch": {
+      }
+    },
+    "RobeBottomLeft": {
+      "position": {
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ -6.307457, 0, 0 ],
+        "120": [ -5, 0, 0 ]
+      },
+      "stretch": {
+      }
+    },
+    "ArmRight": {
+      "position": {
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 6.573553, -0.1850901, -17.85085 ],
+        "50": [ 11.5325, -3.587158, -17.77761 ],
+        "120": [ 6.573553, -0.1850901, -17.85085 ]
+      },
+      "stretch": {
+      }
+    },
+    "ArmRightLower": {
+      "position": {
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ -50, 0, 0 ],
+        "50": [ -61, 0, 0 ],
+        "120": [ -50, 0, 0 ]
+      },
+      "stretch": {
+      }
+    },
+    "ArmLeft": {
+      "position": {
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 5.34576, -1.508565, 19.60279 ],
+        "50": [ 10.39103, 4.017307, 19.44632 ],
+        "120": [ 5.34576, -1.508565, 19.60279 ]
+      },
+      "stretch": {
+      }
+    },
+    "ArmLeftLower": {
+      "position": {
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ -50, 0, 0 ],
+        "50": [ -61, 0, 0 ],
+        "120": [ -50, 0, 0 ]
+      },
+      "stretch": {
+      }
+    },
+    "Head": {
+      "position": {
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 5, 0, 0 ],
+        "120": [ 5, 0, 0 ]
+      },
+      "stretch": {
+      }
+    }
+  }
+}

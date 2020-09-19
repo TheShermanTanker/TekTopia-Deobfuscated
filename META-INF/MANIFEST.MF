@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: TekTopia
+Implementation-Version: 1.1.0
+ContainedDeps: CraftStudio-1.0.0.93-mc1.12-alpha.jar
+

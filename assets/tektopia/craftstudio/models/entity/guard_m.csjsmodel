@@ -1,0 +1,383 @@
+{
+  "title": "GuardM",
+  "tree": [
+    {
+      "name": "BodyInner",
+      "position": [ 0, 13, 0 ],
+      "offsetFromPivot": [ 0, 5, 0 ],
+      "size": [ 8, 12, 6 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 16, 20 ],
+      "children": [
+        {
+          "name": "ArmLeft",
+          "position": [ 6, 5, 0 ],
+          "offsetFromPivot": [ 0, -3.5, 0 ],
+          "size": [ 4, 7, 4 ],
+          "rotation": [ 1.036357, 0, 0 ],
+          "texOffset": [ 0, 49 ],
+          "children": [
+            {
+              "name": "ArmLeftLower",
+              "position": [ -4.768372E-07, -3, 0 ],
+              "offsetFromPivot": [ 0, -3.5, 0 ],
+              "size": [ 4, 6, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 17, 51 ],
+              "children": []
+            },
+            {
+              "name": "ArmorChestIronArmLeft",
+              "position": [ 0, 0, 0 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 5, 8, 5 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 71, 0 ],
+              "children": []
+            },
+            {
+              "name": "ArmorChestDiamondArmLeft",
+              "position": [ -4.768372E-07, -8.924076E-07, 4.312241E-09 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 5, 8, 5 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 51, 40 ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ArmRight",
+          "position": [ -6, 5, 0 ],
+          "offsetFromPivot": [ 0, -3.5, 0 ],
+          "size": [ 4, 7, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "vertexCoords": [
+            [ 2, 3.5, -2 ],
+            [ -2, 3.5, -2 ],
+            [ -2, -3.5, -2 ],
+            [ 2, -3.5, -2 ],
+            [ -2, 3.5, 2 ],
+            [ 2, 3.5, 2 ],
+            [ 2, -3.5, 2 ],
+            [ -2, -3.5, 2 ]
+          ],
+          "texOffset": [ 0, 38 ],
+          "children": [
+            {
+              "name": "ArmRightLower",
+              "position": [ 4.768372E-07, -3, 0 ],
+              "offsetFromPivot": [ 0, -3.5, 0 ],
+              "size": [ 4, 6, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "vertexCoords": [
+                [ 2, 3, -2 ],
+                [ -2, 3, -2 ],
+                [ -2, -3, -2 ],
+                [ 2, -3, -2 ],
+                [ -2, 3, 2 ],
+                [ 2, 3, 2 ],
+                [ 2, -3, 2 ],
+                [ -2, -3, 2 ]
+              ],
+              "texOffset": [ 17, 40 ],
+              "children": [
+                {
+                  "name": "ArmRightWrist",
+                  "position": [ 0, -1.5, 1 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 1, 1, 1 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 124, 1 ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ArmorChestIronArmRight",
+              "position": [ 0, -0.01218605, 0 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 5, 8, 5 ],
+              "rotation": [ -1.036357, 0, 0 ],
+              "vertexCoords": [
+                [ -2.5, -4, -2.5 ],
+                [ 2.5, -4, -2.5 ],
+                [ 2.5, 4, -2.5 ],
+                [ -2.5, 4, -2.5 ],
+                [ 2.5, -4, 2.5 ],
+                [ -2.5, -4, 2.5 ],
+                [ -2.5, 4, 2.5 ],
+                [ 2.5, 4, 2.5 ]
+              ],
+              "texOffset": [ 71, 0 ],
+              "children": []
+            },
+            {
+              "name": "ArmorChestDiamondArmRight",
+              "position": [ 0, -0.01218605, 0 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 5, 8, 5 ],
+              "rotation": [ -1.036357, 0, 0 ],
+              "vertexCoords": [
+                [ -2.5, -4, -2.5 ],
+                [ 2.5, -4, -2.5 ],
+                [ 2.5, 4, -2.5 ],
+                [ -2.5, 4, -2.5 ],
+                [ 2.5, -4, 2.5 ],
+                [ -2.5, -4, 2.5 ],
+                [ -2.5, 4, 2.5 ],
+                [ 2.5, 4, 2.5 ]
+              ],
+              "texOffset": [ 51, 40 ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Head",
+          "position": [ 0, 11, 0 ],
+          "offsetFromPivot": [ 0, 0, 0 ],
+          "size": [ 8, 10, 8 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 0 ],
+          "children": [
+            {
+              "name": "Nose",
+              "position": [ 0, -3, 5 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 2, 4, 2 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 24, 0 ],
+              "children": []
+            },
+            {
+              "name": "ArmorHeadIron",
+              "position": [ 0, -0.45, 0 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 9, 11, 9 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 33, 0 ],
+              "children": [
+                {
+                  "name": "ArmorHeadIronCaptRight",
+                  "position": [ -4.1, 4.5, -5 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 1, 10, 8 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 103, 3 ],
+                  "children": []
+                },
+                {
+                  "name": "ArmorHeadIronCaptLeft",
+                  "position": [ 4.1, 4.5, -5 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 1, 10, 8 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "vertexCoords": [
+                    [ 0.5, 5, -4 ],
+                    [ -0.5, 5, -4 ],
+                    [ -0.5, -5, -4 ],
+                    [ 0.5, -5, -4 ],
+                    [ -0.5, 5, 4 ],
+                    [ 0.5, 5, 4 ],
+                    [ 0.5, -5, 4 ],
+                    [ -0.5, -5, 4 ]
+                  ],
+                  "texOffset": [ 103, 3 ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ArmorHeadDiamond",
+              "position": [ 0, -0.45, 0 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 9, 11, 9 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 62, 44 ],
+              "children": [
+                {
+                  "name": "ArmorHeadDiamondCaptRight",
+                  "position": [ -4.1, 4.5, -5 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 1, 10, 8 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 41, 46 ],
+                  "children": []
+                },
+                {
+                  "name": "ArmorHeadDiamondCaptLeft",
+                  "position": [ 4.1, 4.5, -5 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 1, 10, 8 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "vertexCoords": [
+                    [ 0.5, 5, -4 ],
+                    [ -0.5, 5, -4 ],
+                    [ -0.5, -5, -4 ],
+                    [ 0.5, -5, -4 ],
+                    [ -0.5, 5, 4 ],
+                    [ 0.5, 5, 4 ],
+                    [ 0.5, -5, 4 ],
+                    [ -0.5, -5, 4 ]
+                  ],
+                  "texOffset": [ 41, 46 ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "EyeLids",
+              "position": [ 0, -1.5, 3 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 6, 1, 1 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 12, 8 ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Waist",
+          "position": [ 0, -5, 0 ],
+          "offsetFromPivot": [ 0, 0, 0 ],
+          "size": [ 1, 1, 1 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 15, 15 ],
+          "children": [
+            {
+              "name": "LegLeft",
+              "position": [ 2, 1, 0 ],
+              "offsetFromPivot": [ 0, -5, 0 ],
+              "size": [ 4, 6, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 18 ],
+              "children": [
+                {
+                  "name": "LegLeftLow",
+                  "position": [ 0, -1, 0 ],
+                  "offsetFromPivot": [ 0, -5, 0 ],
+                  "size": [ 4, 6, 4 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 33, 38 ],
+                  "children": [
+                    {
+                      "name": "ArmorFeetIronLeftBottom",
+                      "position": [ 0.4, -0.1, 0 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 5, 6, 5 ],
+                      "rotation": [ 0, 0, 0 ],
+                      "texOffset": [ 91, 0 ],
+                      "children": []
+                    },
+                    {
+                      "name": "ArmorFeetDiamondLeftBottom",
+                      "position": [ 0.4000001, -0.0999999, 0 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 5, 6, 5 ],
+                      "rotation": [ 0, 0, 0 ],
+                      "texOffset": [ 100, 53 ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "ArmorLegIronLeftTop",
+                  "position": [ 0.4, 0, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 5, 7, 5 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 71, 14 ],
+                  "children": []
+                },
+                {
+                  "name": "ArmorLegDiamondLeftTop",
+                  "position": [ 0.4000001, 0, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 5, 7, 5 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 107, 21 ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "LegRight",
+              "position": [ -2, 1, 0 ],
+              "offsetFromPivot": [ 0, -5, 0 ],
+              "size": [ 4, 6, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 28 ],
+              "children": [
+                {
+                  "name": "LegRightLow",
+                  "position": [ 0, -1, 0 ],
+                  "offsetFromPivot": [ 0, -5, 0 ],
+                  "size": [ 4, 6, 4 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 33, 38 ],
+                  "children": [
+                    {
+                      "name": "ArmorFeetIronRightBottom",
+                      "position": [ -0.4, -0.1, 0 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 5, 6, 5 ],
+                      "rotation": [ 0, 0, 0 ],
+                      "texOffset": [ 91, 0 ],
+                      "children": []
+                    },
+                    {
+                      "name": "ArmorFeetDiamondRightBottom",
+                      "position": [ -0.4000001, -0.0999999, 0 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 5, 6, 5 ],
+                      "rotation": [ 0, 0, 0 ],
+                      "texOffset": [ 100, 53 ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "ArmorLegIronRightTop",
+                  "position": [ -0.4, 0, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 5, 7, 5 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 71, 14 ],
+                  "children": []
+                },
+                {
+                  "name": "ArmorLegDiamondRightTop",
+                  "position": [ -0.4000001, 0, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 5, 7, 5 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 107, 21 ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ArmorChestIron",
+          "position": [ 0, -0.1, 0 ],
+          "offsetFromPivot": [ 0, 0, 0 ],
+          "size": [ 9, 12, 7 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 45, 20 ],
+          "children": []
+        },
+        {
+          "name": "ArmorChestDiamond",
+          "position": [ 0, -0.1000004, 0 ],
+          "offsetFromPivot": [ 0, 0, 0 ],
+          "size": [ 9, 12, 7 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 90, 33 ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

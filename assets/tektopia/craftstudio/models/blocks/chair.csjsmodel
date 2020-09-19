@@ -1,0 +1,59 @@
+{
+  "title": "Chair",
+  "tree": [
+    {
+      "name": "Seat",
+      "position": [ 0, 7, 0 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 9, 1, 7 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ -7, -6 ],
+      "children": []
+    },
+    {
+      "name": "Back",
+      "position": [ 0, 11, -4 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 9, 9, 1 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 3, 19 ],
+      "children": []
+    },
+    {
+      "name": "Leg1",
+      "position": [ -3, 3, 2 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 1, 7, 1 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 0, 0 ],
+      "children": []
+    },
+    {
+      "name": "Leg2",
+      "position": [ 3, 3, 2 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 1, 7, 1 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 0, 0 ],
+      "children": []
+    },
+    {
+      "name": "Leg3",
+      "position": [ -3, 3, -3 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 1, 7, 1 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 0, 0 ],
+      "children": []
+    },
+    {
+      "name": "Leg4",
+      "position": [ 3, 3, -3 ],
+      "offsetFromPivot": [ 0, 0, 0 ],
+      "size": [ 1, 7, 1 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 0, 0 ],
+      "children": []
+    }
+  ]
+}

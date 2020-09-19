@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:chest"
+        },
+        {
+            "item": "minecraft:iron_pickaxe"
+        },
+        {
+            "item": "minecraft:iron_sword"
+        },
+        {
+            "item": "minecraft:iron_hoe"
+        },
+        {
+            "item": "minecraft:iron_axe"
+        }
+    ],
+    "result":
+    {
+        "item": "tektopia:structure_storage",
+        "count": 1,
+        "data": 0
+    }
+}

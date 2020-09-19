@@ -1,0 +1,26 @@
+{
+  "title": "necro_idle",
+  "duration": 180,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+    "BodyInner": {
+      "position": {
+        "0": [ 0, 3, 0 ],
+        "20": [ 0, 3.25, 0 ],
+        "70": [ 0, 5.25, 0 ],
+        "90": [ 0, 5.5, 0 ],
+        "110": [ 0, 5.25, 0 ],
+        "160": [ 0, 3.25, 0 ],
+        "180": [ 0, 3, 0 ]
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+      },
+      "stretch": {
+      }
+    }
+  }
+}

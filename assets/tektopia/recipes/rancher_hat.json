@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "ddd",
+        "dRd",
+        "   "
+    ],
+    "key":
+    {
+        "R":
+        {
+            "item": "tektopia:prof_rancher"
+        },
+        "d":
+        {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result":
+    {
+        "item": "tektopia:rancher_hat",
+        "count": 1
+    }
+}

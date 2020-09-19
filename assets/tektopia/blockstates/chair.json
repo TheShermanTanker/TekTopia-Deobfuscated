@@ -1,0 +1,36 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "tektopia:blocks/chair"
+        }
+    },
+    "variants": {
+        "normal": { "model": "tektopia:chair" },
+        "facing=east": { "model": "tektopia:chair", "y": 270 },
+        "facing=south": { "model": "tektopia:chair", "y": 0 },
+        "facing=west": { "model": "tektopia:chair", "y": 90 },
+        "facing=north": { "model": "tektopia:chair", "y": 180 },
+        "inventory": { "model": "tektopia:chair" }
+//            "transform": {
+//                "gui": {
+//                    "rotation": [
+//                        30,
+//                        225,
+//                        0
+//                    ],
+//                    "translation": [
+//                        0,
+//                        0,
+//                        0
+//                    ],
+//                    "scale": [
+//                        0.625,
+//                        0.625,
+//                        0.625
+//                    ]
+//                }
+//            }
+//        }
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="9">
+<g style="fill:#000;fill-opacity:1;stroke:none">
+<path d="M 2,0 4,0 4,1 5,1 5,2 6,2 6,3 7,3 7,6 9,6 9,8 8,8 8,9 6,9 6,7 3,7 3,6 2,6 2,5 1,5 1,4 0,4 0,2 1,2 1,1 2,1 2,0 zM 2,1 4,1 4,2 5,2 5,3 6,3 6,6 3,6 3,5 2,5 2,4 1,4 1,2 2,2 z"/>
+<path d="M 6,6 6,7 7,7 7,6 6,6" style="fill:#e2d5aa"/>
+<path d="M 7,7 8,7 8,8 7,8 z" style="fill:#fff7dc"/>
+<path d="M 2,1 4,1 4,2 5,2 5,3 6,3 6,6 3,6 3,5 2,5 2,4 1,4 1,2 2,2 z" style="fill:#9d6d43"/>
+<path d="M 4,5 6,5 6,6 4,6 zM 3,4 4,4 4,5 3,5 z" style="fill:#7b512d"/>
+<path d="M 3,5 4,5 4,6 3,6 zM 2,4 3,4 3,5 2,5 z" style="fill:#613c1b"/>
+<path d="M 3,3 4,3 4,4 3,4 zM 4,2 5,2 5,3 4,3 zM 5,3 6,3 6,4 5,4 z" style="fill:#b88458"/>
+<path d="M 2,2 3,2 3,3 2,3 z" style="fill:#dfb18f"/>
+<path d="M 3,2 4,2 4,3 3,3 zM 2,1 3,1 3,2 2,2 zM 1,2 2,2 2,3 1,3 zM 2,3 3,3 3,4 2,4 z" style="fill:#d42a2a"/>
+<path d="M 1,3 2,3 2,4 1,4 zM 3,1 4,1 4,2 3,2 z" style="fill:#b21818"/>
+</g>
+</svg>

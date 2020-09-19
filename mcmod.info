@@ -1,0 +1,14 @@
+[{
+  "modid": "tektopia",
+  "name": "TekTopia",
+  "description": "Complete village overhaul! You build the village and your villagers adapt to your designs!",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "logoFile": "assets/tektopia/textures/logo.png",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/tektopia",
+  "updateJSON": "https://raw.githubusercontent.com/TangoTek/tektopia-public/master/update.json",
+  "authorList": ["Tango Tek"],
+  "useDependencyInformation": true,
+  "dependencies": ["craftstudioapi"]
+  
+}]

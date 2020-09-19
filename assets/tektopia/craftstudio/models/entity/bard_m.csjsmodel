@@ -1,0 +1,306 @@
+{
+  "title": "Bard",
+  "tree": [
+    {
+      "name": "BodyInner",
+      "position": [ 0, 13, 0 ],
+      "offsetFromPivot": [ 0, 5, 0 ],
+      "size": [ 8, 12, 6 ],
+      "rotation": [ 0, 0, 0 ],
+      "texOffset": [ 16, 20 ],
+      "children": [
+        {
+          "name": "ArmLeft",
+          "position": [ 6, 5, 0 ],
+          "offsetFromPivot": [ 0, -3.5, 0 ],
+          "size": [ 4, 7, 4 ],
+          "rotation": [ 1.036357, 0, 0 ],
+          "texOffset": [ 44, 22 ],
+          "children": [
+            {
+              "name": "ArmLeftLower",
+              "position": [ -4.768372E-07, -3, 0 ],
+              "offsetFromPivot": [ 0, -3.5, 0 ],
+              "size": [ 4, 6, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 43, 34 ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ArmRight",
+          "position": [ -6, 5, 0 ],
+          "offsetFromPivot": [ 0, -3.5, 0 ],
+          "size": [ 4, 7, 4 ],
+          "rotation": [ 0, 0, 0 ],
+          "vertexCoords": [
+            [ 2, 3.5, -2 ],
+            [ -2, 3.5, -2 ],
+            [ -2, -3.5, -2 ],
+            [ 2, -3.5, -2 ],
+            [ -2, 3.5, 2 ],
+            [ 2, 3.5, 2 ],
+            [ 2, -3.5, 2 ],
+            [ -2, -3.5, 2 ]
+          ],
+          "texOffset": [ 44, 22 ],
+          "children": [
+            {
+              "name": "ArmRightLower",
+              "position": [ 4.768372E-07, -3, 0 ],
+              "offsetFromPivot": [ 0, -3.5, 0 ],
+              "size": [ 4, 6, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "vertexCoords": [
+                [ 2, 3, -2 ],
+                [ -2, 3, -2 ],
+                [ -2, -3, -2 ],
+                [ 2, -3, -2 ],
+                [ -2, 3, 2 ],
+                [ 2, 3, 2 ],
+                [ 2, -3, 2 ],
+                [ -2, -3, 2 ]
+              ],
+              "texOffset": [ 43, 34 ],
+              "children": [
+                {
+                  "name": "ArmRightWrist",
+                  "position": [ 0, -1.5, 1 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 1, 1, 1 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 14, 20 ],
+                  "children": [
+                    {
+                      "name": "Flute",
+                      "position": [ 0, 0, 0 ],
+                      "offsetFromPivot": [ 0, 0, -2 ],
+                      "size": [ 1, 1, 12 ],
+                      "rotation": [ 0, 0, 0 ],
+                      "texOffset": [ 5, 39 ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Head",
+          "position": [ 0, 11, 0 ],
+          "offsetFromPivot": [ 0, 0, 0 ],
+          "size": [ 8, 10, 8 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 0, 0 ],
+          "children": [
+            {
+              "name": "Nose",
+              "position": [ 0, -3, 5 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 2, 4, 2 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 24, 0 ],
+              "children": []
+            },
+            {
+              "name": "EyeLids",
+              "position": [ 0, -1.5, 3 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 6, 1, 1 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 17, 10 ],
+              "children": []
+            },
+            {
+              "name": "Hat",
+              "position": [ 0, 2, 0 ],
+              "offsetFromPivot": [ 0, 0, 0 ],
+              "size": [ 15, 1, 15 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 57, 5 ],
+              "children": [
+                {
+                  "name": "HatTop",
+                  "position": [ 0, 2, 0 ],
+                  "offsetFromPivot": [ 0, 0, 0 ],
+                  "size": [ 9, 3, 9 ],
+                  "rotation": [ 1.765181, 0, 0 ],
+                  "texOffset": [ 33, 6 ],
+                  "children": []
+                },
+                {
+                  "name": "feather",
+                  "position": [ 5, 0.6, 0 ],
+                  "offsetFromPivot": [ 0, 4, 0 ],
+                  "size": [ 1, 9, 1 ],
+                  "rotation": [ -2.57466, 93.50695, -34.54831 ],
+                  "texOffset": [ 35, 2 ],
+                  "children": [
+                    {
+                      "name": "Fray1",
+                      "position": [ 1, -0.9992206, -0.03952037 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ -2.635417, -16.66282, 23.54076 ],
+                      "texOffset": [ 41, 1 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray2",
+                      "position": [ 1, 0.9992169, 0.03952035 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ -2.635417, -16.66282, 23.54076 ],
+                      "texOffset": [ 41, 1 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray3",
+                      "position": [ 1, -1.847744E-06, -1.117587E-08 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ -2.635417, -16.66282, 23.54076 ],
+                      "texOffset": [ 41, 1 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray4",
+                      "position": [ 1, 1.998436, 0.07904071 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ -2.635417, -16.66282, 23.54076 ],
+                      "texOffset": [ 41, 1 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray5",
+                      "position": [ 1, 2.997654, 0.1185611 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ -9.957075, -19.89608, 23.89617 ],
+                      "texOffset": [ 41, 1 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray6",
+                      "position": [ 1, 3.996873, 0.1580814 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ -8.280807, -19.14603, 23.77729 ],
+                      "texOffset": [ 41, 1 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray7",
+                      "position": [ -9.635065E-08, 4.996097, 0.1976015 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 1, 1, 1 ],
+                      "rotation": [ 0.8010757, -3.870186, -5.540653 ],
+                      "texOffset": [ 42, 3 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray8",
+                      "position": [ -0.9999999, 1.575899E-06, 1.028021E-07 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ 6.952919, -15.48757, -28.92807 ],
+                      "texOffset": [ 41, 3 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray9",
+                      "position": [ -1, 1, 5.063217E-08 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ 6.952919, -15.48757, -28.92807 ],
+                      "texOffset": [ 41, 3 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray10",
+                      "position": [ -1, 2, 1.031469E-08 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ 6.952919, -15.48757, -28.92807 ],
+                      "texOffset": [ 41, 3 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray11",
+                      "position": [ -1, 3, -6.497663E-08 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ 6.952919, -15.48757, -28.92807 ],
+                      "texOffset": [ 41, 3 ],
+                      "children": []
+                    },
+                    {
+                      "name": "Fray12",
+                      "position": [ -1, 4, -1.556641E-08 ],
+                      "offsetFromPivot": [ 0, 0, 0 ],
+                      "size": [ 2, 1, 1 ],
+                      "rotation": [ 6.952919, -15.48757, -28.92807 ],
+                      "texOffset": [ 41, 3 ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Waist",
+          "position": [ 0, -5, 0 ],
+          "offsetFromPivot": [ 0, 0, 0 ],
+          "size": [ 1, 1, 1 ],
+          "rotation": [ 0, 0, 0 ],
+          "texOffset": [ 15, 15 ],
+          "children": [
+            {
+              "name": "LegLeft",
+              "position": [ 2, 1, 0 ],
+              "offsetFromPivot": [ 0, -5, 0 ],
+              "size": [ 4, 6, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 22 ],
+              "children": [
+                {
+                  "name": "LegLeftLow",
+                  "position": [ 0, -1, 0 ],
+                  "offsetFromPivot": [ 0, -5, 0 ],
+                  "size": [ 4, 6, 4 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 0, 39 ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "LegRight",
+              "position": [ -2, 1, 0 ],
+              "offsetFromPivot": [ 0, -5, 0 ],
+              "size": [ 4, 6, 4 ],
+              "rotation": [ 0, 0, 0 ],
+              "texOffset": [ 0, 22 ],
+              "children": [
+                {
+                  "name": "LegRightLow",
+                  "position": [ 0, -1, 0 ],
+                  "offsetFromPivot": [ 0, -5, 0 ],
+                  "size": [ 4, 6, 4 ],
+                  "rotation": [ 0, 0, 0 ],
+                  "texOffset": [ 0, 39 ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

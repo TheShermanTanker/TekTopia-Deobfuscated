@@ -1,0 +1,306 @@
+{
+  "villager_sleep": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_sleep",
+    "sounds": [
+      "tektopia:sleep1",
+	  "tektopia:sleep2",
+      "tektopia:sleep3",
+      "tektopia:sleep4",
+      "tektopia:sleep5",
+      "tektopia:sleep6",
+      "tektopia:sleep7",
+      "tektopia:sleep8",
+      "tektopia:sleep9"
+    ]
+  },
+  "villager_angry": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_angry",
+    "sounds": [
+      "tektopia:angry_1_1",
+      "tektopia:angry_1_2",
+      "tektopia:angry_1_3",
+      "tektopia:angry_1_4"
+    ]
+  },
+  "villager_happy": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_happy",
+    "sounds": [
+      "tektopia:happy2_2"
+    ]
+  },
+  "villager_socialize": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_socialize",
+    "sounds": [
+      "tektopia:socialize1",
+      "tektopia:socialize2",
+      "tektopia:socialize3",
+      "tektopia:socialize4",
+      "tektopia:socialize5",
+      "tektopia:socialize6",
+      "tektopia:socialize7",
+      "tektopia:socialize8",
+      "tektopia:socialize9",
+      "tektopia:socialize10",
+      "tektopia:socialize11",
+      "tektopia:socialize12",
+      "tektopia:socialize13",
+      "tektopia:socialize14",
+      "tektopia:socialize15",
+      "tektopia:socialize16",
+      "tektopia:socialize17",
+      "tektopia:socialize18",
+      "tektopia:socialize19",
+      "tektopia:socialize20",
+      "tektopia:socialize21",
+      "tektopia:socialize22",
+      "tektopia:socialize23",
+      "tektopia:socialize24",
+      "tektopia:socialize25",
+      "tektopia:socialize26",
+      "tektopia:socialize27"
+    ]
+  },
+  "villager_grunt": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_grunt",
+    "sounds": [
+      "tektopia:grunt1",
+      "tektopia:grunt2"
+    ]
+  },
+  "big_attack": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.big_attack",
+    "sounds": [
+      "tektopia:big_attack_01",
+      "tektopia:big_attack_02"
+    ]
+  },
+  "slam_ground": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.slam_ground",
+    "sounds": [
+      "tektopia:slam_ground"
+    ]
+  },
+  "courage_aura": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.courage_aura",
+    "sounds": [
+      "tektopia:courage_aura"
+    ]
+  },
+  "villager_afraid": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_afraid",
+    "sounds": [
+      "tektopia:afraid1",
+      "tektopia:afraid2",
+      "tektopia:afraid3",
+      "tektopia:afraid4"
+    ]
+  },
+  "villager_enchant": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_enchant",
+    "sounds": [
+      "tektopia:enchant"
+    ]
+  },
+  "villager_enchant_apply": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_enchant_apply",
+    "sounds": [
+      "tektopia:enchant_apply"
+    ]
+  },
+  "villager_heart_magic": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.villager_heart_magic",
+    "sounds": [
+      "tektopia:heart_magic"
+    ]
+  },
+  "twinkle": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.twinkle",
+    "sounds": [
+      "tektopia:twinkle"
+    ]
+  },
+  "healing_source": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.healing_source",
+    "sounds": [
+      "tektopia:healing_source"
+    ]
+  },
+  "healing_target": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.healing_target",
+    "sounds": [
+      "tektopia:healing_target"
+    ]
+  },
+  "earth_rumble": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.earth_rumble",
+    "sounds": [
+      "tektopia:earth1",
+      "tektopia:earth2",
+      "tektopia:earth3"
+    ]
+  },
+  "earth_blast": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.earth_blast",
+    "sounds": [
+      "tektopia:earth_blast"
+    ]
+  },
+  "death_summon": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_summon",
+    "sounds": [
+      "tektopia:death_summon"
+    ]
+  },
+  "death_summon_target": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_summon_target",
+    "sounds": [
+      "tektopia:death_summon_target"
+    ]
+  },
+  "death_skull_arrive": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_skull_arrive",
+    "sounds": [
+      "tektopia:death_skull_arrive"
+    ]
+  },
+  "death_skull_leave": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_skull_leave",
+    "sounds": [
+      "tektopia:death_skull_leave"
+    ]
+  },
+  "death_skull_rebound": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_skull_rebound",
+    "sounds": [
+      "tektopia:death_skull_rebound1",
+      "tektopia:death_skull_rebound2"
+    ]
+  },
+  "death_shield": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_shield",
+    "sounds": [
+      "tektopia:death_shield"
+    ]
+  },
+  "death_circle": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_circle",
+    "sounds": [
+      "tektopia:death_circle"
+    ]
+  },
+  "death_full_skulls": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_full_skulls",
+    "sounds": [
+      "tektopia:death_full_skulls"
+    ]
+  },
+  "death_summon_end": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.death_summon_end",
+    "sounds": [
+      "tektopia:death_summon_end"
+    ]
+  },
+  "necro_dead": {
+    "category": "hostile",
+    "subtitle": "tektopia.subtitle.necro_dead",
+    "sounds": [
+      "tektopia:necro_dead"
+    ]
+  },
+  "flute_short_1": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_short_1",
+    "sounds": [
+      "tektopia:flute_short_1"
+    ]
+  },
+  "flute_short_2": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_short_2",
+    "sounds": [
+      "tektopia:flute_short_2"
+    ]
+  },
+  "flute_short_3": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_short_3",
+    "sounds": [
+      "tektopia:flute_short_3"
+    ]
+  },
+  "flute_short_4": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_short_4",
+    "sounds": [
+      "tektopia:flute_short_4"
+    ]
+  },
+  "flute_short_5": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_short_5",
+    "sounds": [
+      "tektopia:flute_short_5"
+    ]
+  },
+  "flute_short_6": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_short_6",
+    "sounds": [
+      "tektopia:flute_short_6"
+    ]
+  },
+  "flute_short_7": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_short_7",
+    "sounds": [
+      "tektopia:flute_short_7"
+    ]
+  },
+  "flute_tavern_1": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_tavern_1",
+    "sounds": [
+      "tektopia:flute_tavern_1"
+    ]
+  },
+  "flute_tavern_2": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_tavern_2",
+    "sounds": [
+      "tektopia:flute_tavern_2"
+    ]
+  },
+  "flute_tavern_3": {
+    "category": "neutral",
+    "subtitle": "tektopia.subtitle.flute_tavern_3",
+    "sounds": [
+      "tektopia:flute_tavern_3"
+    ]
+  }
+}

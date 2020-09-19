@@ -1,0 +1,675 @@
+{
+  "com/websina/tool/LicenseTool$ButtonEvent": {
+    "name": "com/websina/tool/LicenseTool$ButtonEvent",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ]
+  },
+  "net/tangotek/tektopia/LicenseTracker": {
+    "name": "net/tangotek/tektopia/LicenseTracker",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerStartTracking(Lnet/minecraftforge/event/entity/player/PlayerEvent$StartTracking;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "playerCapabilities(Lnet/minecraftforge/event/AttachCapabilitiesEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerClone(Lnet/minecraftforge/event/entity/player/PlayerEvent$Clone;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEntityJoinWorld(Lnet/minecraftforge/event/entity/EntityJoinWorldEvent;)V"
+      }
+    ]
+  },
+  "net/tangotek/tektopia/ModGuiHandler": {
+    "name": "net/tangotek/tektopia/ModGuiHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/IGuiHandler"
+    ]
+  },
+  "net/tangotek/tektopia/ModSoundEvents": {
+    "name": "net/tangotek/tektopia/ModSoundEvents",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "net/tangotek/tektopia/ModSoundEvents",
+        "value": {
+          "value": "tektopia"
+        }
+      }
+    ]
+  },
+  "net/tangotek/tektopia/TekDataSerializers$1": {
+    "name": "net/tangotek/tektopia/TekDataSerializers$1",
+    "interfaces": [
+      "net/minecraft/network/datasync/DataSerializer"
+    ]
+  },
+  "net/tangotek/tektopia/TekVillager": {
+    "name": "net/tangotek/tektopia/TekVillager",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "net/tangotek/tektopia/TekVillager",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "tektopia"
+          },
+          "name": {
+            "value": "TekTopia"
+          },
+          "updateJSON": {
+            "value": "https://raw.githubusercontent.com/TangoTek/tektopia-public/master/update.json"
+          },
+          "useMetadata": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "version": {
+            "value": "1.1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "tektopia"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "net.tangotek.tektopia.proxy.ClientProxy"
+          },
+          "serverSide": {
+            "value": "net.tangotek.tektopia.proxy.ServerProxy"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "onServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      }
+    ]
+  },
+  "net/tangotek/tektopia/TekVillager$RegistrationHandler": {
+    "name": "net/tangotek/tektopia/TekVillager$RegistrationHandler",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "net/tangotek/tektopia/TekVillager$RegistrationHandler"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "worldTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$WorldTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChunkPopulate(Lnet/minecraftforge/event/terraingen/PopulateChunkEvent$Post;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerSleepEvent(Lnet/minecraftforge/event/entity/player/PlayerSleepInBedEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "playerLoggedIn(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onItemToolTip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerCraftEvent(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$ItemCraftedEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onCropGrowEvent(Lnet/minecraftforge/event/world/BlockEvent$CropGrowEvent$Post;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onHarvestDropsEvent(Lnet/minecraftforge/event/world/BlockEvent$HarvestDropsEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onBabySpawnEvent(Lnet/minecraftforge/event/entity/living/BabyEntitySpawnEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onLivingDropsEvent(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerPotions(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerPotionTypes(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lcom/leviathanstudio/craftstudio/client/registry/CraftStudioLoader;",
+        "target": "loadStuff()V"
+      }
+    ]
+  },
+  "net/tangotek/tektopia/caps/PlayerLicense": {
+    "name": "net/tangotek/tektopia/caps/PlayerLicense",
+    "interfaces": [
+      "net/tangotek/tektopia/caps/IPlayerLicense",
+      "net/minecraftforge/common/capabilities/Capability$IStorage"
+    ]
+  },
+  "net/tangotek/tektopia/caps/PlayerLicenseProvider": {
+    "name": "net/tangotek/tektopia/caps/PlayerLicenseProvider",
+    "interfaces": [
+      "net/minecraftforge/common/capabilities/ICapabilitySerializable"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/capabilities/CapabilityInject;",
+        "target": "PLAYER_LICENSE_CAPABILITY",
+        "value": {
+          "type": "CLASS",
+          "value": "Lnet/tangotek/tektopia/caps/IPlayerLicense;"
+        }
+      }
+    ]
+  },
+  "net/tangotek/tektopia/caps/VillageData": {
+    "name": "net/tangotek/tektopia/caps/VillageData",
+    "interfaces": [
+      "net/tangotek/tektopia/caps/IVillageData",
+      "net/minecraftforge/common/capabilities/Capability$IStorage"
+    ]
+  },
+  "net/tangotek/tektopia/caps/VillageDataProvider": {
+    "name": "net/tangotek/tektopia/caps/VillageDataProvider",
+    "interfaces": [
+      "net/minecraftforge/common/capabilities/ICapabilitySerializable"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/common/capabilities/CapabilityInject;",
+        "target": "VILLAGE_DATA_CAPABILITY",
+        "value": {
+          "type": "CLASS",
+          "value": "Lnet/tangotek/tektopia/caps/IVillageData;"
+        }
+      }
+    ]
+  },
+  "net/tangotek/tektopia/client/LayerRancherHat": {
+    "name": "net/tangotek/tektopia/client/LayerRancherHat",
+    "interfaces": [
+      "net/minecraft/client/renderer/entity/layers/LayerRenderer"
+    ]
+  },
+  "net/tangotek/tektopia/client/LayerVillagerArmor": {
+    "name": "net/tangotek/tektopia/client/LayerVillagerArmor",
+    "interfaces": [
+      "net/minecraft/client/renderer/entity/layers/LayerRenderer"
+    ]
+  },
+  "net/tangotek/tektopia/client/LayerVillagerDestination": {
+    "name": "net/tangotek/tektopia/client/LayerVillagerDestination",
+    "interfaces": [
+      "net/minecraft/client/renderer/entity/layers/LayerRenderer"
+    ]
+  },
+  "net/tangotek/tektopia/client/LayerVillagerHeldItem": {
+    "name": "net/tangotek/tektopia/client/LayerVillagerHeldItem",
+    "interfaces": [
+      "net/minecraft/client/renderer/entity/layers/LayerRenderer"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderArchitect$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderArchitect$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderBard$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderBard$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderBlacksmith$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderBlacksmith$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderButcher$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderButcher$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderChef$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderChef$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderChild$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderChild$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderCleric$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderCleric$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderDruid$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderDruid$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderEnchanter$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderEnchanter$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderFarmer$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderFarmer$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderGuard$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderGuard$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderLumberjack$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderLumberjack$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderMerchant$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderMerchant$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderMiner$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderMiner$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderNecromancer$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderNecromancer$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderNitwit$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderNitwit$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderNomad$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderNomad$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderRancher$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderRancher$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderSpiritSkull$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderSpiritSkull$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderTeacher$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderTeacher$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/RenderTradesman$Factory": {
+    "name": "net/tangotek/tektopia/client/RenderTradesman$Factory",
+    "interfaces": [
+      "net/minecraftforge/fml/client/registry/IRenderFactory"
+    ]
+  },
+  "net/tangotek/tektopia/client/VillageBorderRenderer": {
+    "name": "net/tangotek/tektopia/client/VillageBorderRenderer",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "renderWorldLast(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityBlacksmith$1": {
+    "name": "net/tangotek/tektopia/entities/EntityBlacksmith$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityCleric$1": {
+    "name": "net/tangotek/tektopia/entities/EntityCleric$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityCleric$2": {
+    "name": "net/tangotek/tektopia/entities/EntityCleric$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityFarmer$1": {
+    "name": "net/tangotek/tektopia/entities/EntityFarmer$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityGuard$1": {
+    "name": "net/tangotek/tektopia/entities/EntityGuard$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityGuard$2": {
+    "name": "net/tangotek/tektopia/entities/EntityGuard$2",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityLumberjack$1": {
+    "name": "net/tangotek/tektopia/entities/EntityLumberjack$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityMerchant": {
+    "name": "net/tangotek/tektopia/entities/EntityMerchant",
+    "interfaces": [
+      "net/minecraft/entity/IMerchant"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityMiner$1": {
+    "name": "net/tangotek/tektopia/entities/EntityMiner$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityNecromancer": {
+    "name": "net/tangotek/tektopia/entities/EntityNecromancer",
+    "interfaces": [
+      "net/minecraft/entity/monster/IMob"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityVendor": {
+    "name": "net/tangotek/tektopia/entities/EntityVendor",
+    "interfaces": [
+      "net/minecraft/entity/IMerchant"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityVillageNavigator": {
+    "name": "net/tangotek/tektopia/entities/EntityVillageNavigator",
+    "interfaces": [
+      "com/leviathanstudio/craftstudio/common/animation/IAnimated"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityVillagerTek$BedCheckRunnable": {
+    "name": "net/tangotek/tektopia/entities/EntityVillagerTek$BedCheckRunnable",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityVillagerTek$CleanUpRunnable": {
+    "name": "net/tangotek/tektopia/entities/EntityVillagerTek$CleanUpRunnable",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/EntityVillagerTek$GoalRandomizerRunnable": {
+    "name": "net/tangotek/tektopia/entities/EntityVillagerTek$GoalRandomizerRunnable",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "net/tangotek/tektopia/entities/ai/EntityAIFollowLeader": {
+    "name": "net/tangotek/tektopia/entities/ai/EntityAIFollowLeader",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onLivingSetAttackTargetEvent(Lnet/minecraftforge/event/entity/living/LivingSetAttackTargetEvent;)V"
+      }
+    ]
+  },
+  "net/tangotek/tektopia/generation/TekHouse2Handler": {
+    "name": "net/tangotek/tektopia/generation/TekHouse2Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/registry/VillagerRegistry$IVillageCreationHandler"
+    ]
+  },
+  "net/tangotek/tektopia/generation/TekHouse2bHandler": {
+    "name": "net/tangotek/tektopia/generation/TekHouse2bHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/registry/VillagerRegistry$IVillageCreationHandler"
+    ]
+  },
+  "net/tangotek/tektopia/generation/TekHouse6Handler": {
+    "name": "net/tangotek/tektopia/generation/TekHouse6Handler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/registry/VillagerRegistry$IVillageCreationHandler"
+    ]
+  },
+  "net/tangotek/tektopia/generation/TekStorageHallHandler": {
+    "name": "net/tangotek/tektopia/generation/TekStorageHallHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/registry/VillagerRegistry$IVillageCreationHandler"
+    ]
+  },
+  "net/tangotek/tektopia/generation/TekTownHallHandler": {
+    "name": "net/tangotek/tektopia/generation/TekTownHallHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/registry/VillagerRegistry$IVillageCreationHandler"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketAIFilter": {
+    "name": "net/tangotek/tektopia/network/PacketAIFilter",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketAIFilter$PacketAIFilterHandler": {
+    "name": "net/tangotek/tektopia/network/PacketAIFilter$PacketAIFilterHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketLicense": {
+    "name": "net/tangotek/tektopia/network/PacketLicense",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketLicense$PacketLicenseHandler": {
+    "name": "net/tangotek/tektopia/network/PacketLicense$PacketLicenseHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketPathingNode": {
+    "name": "net/tangotek/tektopia/network/PacketPathingNode",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketPathingNode$PacketPathingNodeHandler": {
+    "name": "net/tangotek/tektopia/network/PacketPathingNode$PacketPathingNodeHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketVillage": {
+    "name": "net/tangotek/tektopia/network/PacketVillage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketVillage$PacketVillageHandler": {
+    "name": "net/tangotek/tektopia/network/PacketVillage$PacketVillageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketVillagerItemThought": {
+    "name": "net/tangotek/tektopia/network/PacketVillagerItemThought",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketVillagerItemThought$PacketVillagerItemThoughtHandler": {
+    "name": "net/tangotek/tektopia/network/PacketVillagerItemThought$PacketVillagerItemThoughtHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketVillagerThought": {
+    "name": "net/tangotek/tektopia/network/PacketVillagerThought",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "net/tangotek/tektopia/network/PacketVillagerThought$PacketVillagerThoughtHandler": {
+    "name": "net/tangotek/tektopia/network/PacketVillagerThought$PacketVillagerThoughtHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/tangotek/tektopia/pathing/PathingOverlayRenderer": {
+    "name": "net/tangotek/tektopia/pathing/PathingOverlayRenderer",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "renderOverlays(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "net/tangotek/tektopia/pathing/PathingWorldListener": {
+    "name": "net/tangotek/tektopia/pathing/PathingWorldListener",
+    "interfaces": [
+      "net/minecraft/world/IWorldEventListener"
+    ]
+  },
+  "net/tangotek/tektopia/proxy/CommonProxy$PlayerLicenseFactory": {
+    "name": "net/tangotek/tektopia/proxy/CommonProxy$PlayerLicenseFactory",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/tangotek/tektopia/proxy/CommonProxy$VillageStorageFactory": {
+    "name": "net/tangotek/tektopia/proxy/CommonProxy$VillageStorageFactory",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "net/tangotek/tektopia/proxy/TekClientAnimationHandler$ClientIAnimatedEventHandler": {
+    "name": "net/tangotek/tektopia/proxy/TekClientAnimationHandler$ClientIAnimatedEventHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "net/tangotek/tektopia/proxy/TekServerAnimationHandler$ServerIAnimatedEventHandler": {
+    "name": "net/tangotek/tektopia/proxy/TekServerAnimationHandler$ServerIAnimatedEventHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  }
+}

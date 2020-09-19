@@ -1,0 +1,122 @@
+{
+  "title": "villager_cast_bless",
+  "duration": 140,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+    "ArmLeft": {
+      "position": {
+        "0": [ 0, 0, 0 ],
+        "30": [ 0, -1, 0 ],
+        "100": [ 0, -1, 0 ]
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 0.003643212, 0, 0 ],
+        "30": [ -17.50665, -59.59704, 27.14457 ],
+        "100": [ -17.50665, -59.59704, 27.14457 ]
+      },
+      "stretch": {
+      }
+    },
+    "ArmRight": {
+      "position": {
+        "0": [ 0, 0, 0 ]
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 0, 0, 0 ],
+        "30": [ -9.859387, 0, 0 ],
+        "60": [ -79.78999, 0, 0 ],
+        "100": [ -79.78999, 0, 0 ],
+        "120": [ -79.78999, 0, 0 ]
+      },
+      "stretch": {
+      }
+    },
+    "ArmRightLower": {
+      "position": {
+        "0": [ -4.768372E-07, 0, 0 ]
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 0, 0, 0 ],
+        "30": [ -72.43333, 180, 180 ],
+        "80": [ -10.62, 0, 0 ],
+        "86": [ -4.289486, 0, 0 ],
+        "92": [ -10.62, 0, 0 ],
+        "120": [ -10.62, 0, 0 ]
+      },
+      "stretch": {
+      }
+    },
+    "Head": {
+      "position": {
+        "0": [ 0, 0, 0 ]
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 0, 0, 0 ],
+        "40": [ 6.47, 0, 0 ],
+        "100": [ 6.47, 0, 0 ]
+      },
+      "stretch": {
+      }
+    },
+    "ArmLeftLower": {
+      "position": {
+        "0": [ 4.768372E-07, 0, 0 ]
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 0, 0, 0 ],
+        "30": [ -58.32999, -180, 180 ],
+        "100": [ -58.32999, -180, -180 ]
+      },
+      "stretch": {
+      }
+    },
+    "BodyInner": {
+      "position": {
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 0, 0, 0 ],
+        "40": [ 3.3, 0, 0 ]
+      },
+      "stretch": {
+      }
+    },
+    "Waist": {
+      "position": {
+      },
+      "offsetFromPivot": {
+      },
+      "size": {
+      },
+      "rotation": {
+        "0": [ 0, 0, 0 ],
+        "40": [ -3.3, 0, 0 ]
+      },
+      "stretch": {
+      }
+    }
+  }
+}

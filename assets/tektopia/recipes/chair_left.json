@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "x  ",
+        "xxx",
+        "s s"
+    ],
+    "key":
+    {
+        "x": [
+            {
+              "item": "minecraft:planks",
+               "data": 0
+            },
+            {
+              "item": "minecraft:planks",
+              "data": 1
+            },
+            {
+              "item": "minecraft:planks",
+              "data": 2
+            },
+            {
+              "item": "minecraft:planks",
+              "data": 3
+            },
+            {
+              "item": "minecraft:planks",
+              "data": 4
+            },
+            {
+              "item": "minecraft:planks",
+              "data": 5
+            }
+		],
+        "s":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    "result":
+    {
+        "item": "tektopia:chair",
+        "count": 1,
+        "data": 0
+    }
+}
